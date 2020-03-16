@@ -9,5 +9,5 @@
 7. Skinuti HeidiSQL 10.3 https://www.heidisql.com/installers/HeidiSQL_10.3.0.5771_Setup.exe
 8. (ako treba netbeans java) Windows x64 Installer -->  jdk-13.0.2_windows-x64_bin.exe
 
- 
-
+##Screenshots instalacije
+![alt text](/screenshots/instalacija NetBeans.PNG "Netbeans instalacija")
