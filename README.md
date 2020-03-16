@@ -12,4 +12,4 @@
 ##Screenshots instalacije
 
 
-![alt text](/screenshots/instalacija NetBeans.PNG "Netbeans instalacija")
+![alt text](./screenshots/instalacija NetBeans.PNG "Netbeans instalacija")
