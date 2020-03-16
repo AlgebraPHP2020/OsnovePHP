@@ -14,7 +14,7 @@
 ### NETBEANS
 
 ![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/instalacija-netBeans.PNG "Netbeans instalacija")
-![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/netbeans-lokacija.PNG "Netbeans lokacija)
+![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/netbeans-lokacija.PNG "Netbeans lokacija")
 
 ### XAMPP
 ![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/Xampp_instalacija.PNG "XAMPP instalacija")
