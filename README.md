@@ -12,4 +12,4 @@
 ##Screenshots instalacije
 
 
-![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/screenshots/instalacija NetBeans.PNG "Netbeans instalacija")
+![alt text]("https://github.com/AlgebraPHP2020/OsnovePHP/screenshots/instalacija NetBeans.PNG" "Netbeans instalacija")
