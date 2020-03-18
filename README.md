@@ -9,5 +9,13 @@
 7. Skinuti HeidiSQL 10.3 https://www.heidisql.com/installers/HeidiSQL_10.3.0.5771_Setup.exe
 8. (ako treba netbeans java) Windows x64 Installer -->  jdk-13.0.2_windows-x64_bin.exe
 
- 
+##Screenshots instalacije
 
+### NETBEANS
+
+![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/instalacija-netBeans.PNG "Netbeans instalacija")
+![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/netbeans-lokacija.PNG "Netbeans lokacija")
+
+### XAMPP
+![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/Xampp_instalacija.PNG "XAMPP instalacija")
+![alt text](https://github.com/AlgebraPHP2020/OsnovePHP/blob/master/screenshots/lokacija_Xampp.PNG "XAMPP lokacija")
