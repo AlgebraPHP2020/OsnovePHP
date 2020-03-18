@@ -9,6 +9,15 @@
 7. Skinuti HeidiSQL 10.3 https://www.heidisql.com/installers/HeidiSQL_10.3.0.5771_Setup.exe
 8. (ako treba netbeans java) Windows x64 Installer -->  jdk-13.0.2_windows-x64_bin.exe
 
+##Postavke netbeansa
+tools -> options -> php -> php interpreter -> C:\xampp\php\php.exe
+project folder -> C:\Users\*****\Code\OsnovePHP
+source folder -> C:\Users\*****\Code\OsnovePHP
+run configuration: PHP built in server
+localhost 
+8000
+browser: chrome
+
 ##Screenshots instalacije
 
 ### NETBEANS
