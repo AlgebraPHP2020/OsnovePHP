@@ -1,3 +1,7 @@
+#ZAdAĆA
+##ZADACI 4.3 na stranici 39 priručnika !!!
+
+
 # OsnovePHP
 
 1. Kreirati Direktorij ~/Code
