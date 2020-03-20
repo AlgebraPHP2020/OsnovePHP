@@ -1,5 +1,5 @@
-#ZAdAĆA
-##ZADACI 4.3 na stranici 39 priručnika !!!
+# ZADAĆA
+## ZADACI 4.3 na stranici 39 priručnika !!!
 
 
 # OsnovePHP
