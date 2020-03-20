@@ -77,6 +77,16 @@ and open the template in the editor.
         
         <a href="http://www.algebra.hr">
         <img style="border-radius: 50%;" src="hard.png" width="280" alt="Programiranje nije teskos" title="Tip za kompjuterom"/>
-        </a>
+        </a><br>
+        <?php
+        //otvoreni php marker
+        
+        echo "lallala".PHP_EOL."<br>";
+        EChO "ollallla".PHP_EOL;
+        
+        
+        // zatvreni php marker
+        ?>
+        
     </body>
 </html>
