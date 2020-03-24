@@ -1,7 +1,9 @@
 # ZADAĆA
 ## ZADACI 4.3 na stranici 39 priručnika !!!
+mbolanca 24.03.2020 +
+jsperkovic 24.03.2020 +
 
-
+    
 # OsnovePHP
 
 1. Kreirati Direktorij ~/Code
