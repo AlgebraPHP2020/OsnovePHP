@@ -1,4 +1,6 @@
-# ZADAĆA
+# ZADAĆA za 26.03.2020
+## ZADACI 5.7 na stranici 54 priručnika !!!
+
 ## ZADACI 4.3 na stranici 39 priručnika !!!
 mbolanca 24.03.2020 +
 jsperkovic 24.03.2020 +
