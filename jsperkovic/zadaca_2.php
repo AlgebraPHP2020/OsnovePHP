@@ -13,14 +13,14 @@ and open the template in the editor.
         <p>1. Koristeći se operatorima usporedbe veće od i manje od i iskazom <i>if-else</i> provjerite odnost varijabli $a = 4 i $b = 2 i ispišite prikladnu poruku.</p>
         
         <?php
-             $a = 4;
-             $b = 2;
-             
-             if($a > $b) {
-                 echo '$a je veće od $b';
-             } else {
-                 echo '$a je manje od $b';
-             }
+        $a = 4;
+        $b = 2;
+
+        if($a > $b) {
+           echo '$a je veće od $b';
+        } else {
+           echo '$a je manje od $b';
+        }
         ?>
         
         <p>2. Napišite program koji radi dvije varijable...</p>
@@ -44,8 +44,8 @@ and open the template in the editor.
         $i = 1;
 
         while($i <= 50) {
-               echo "$i <br>";
-               $i++;
+              echo "$i <br>";
+              $i++;
         }
         ?>
         
@@ -53,7 +53,7 @@ and open the template in the editor.
         
         <?php
         for ($i = 20; $i <= 30; $i++) {
-            $zbroj += $i;
+             $zbroj += $i;
         }
         echo $zbroj;
         ?>
