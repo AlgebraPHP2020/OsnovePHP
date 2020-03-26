@@ -1,4 +1,7 @@
-# ZADAĆA za 26.03.2020
+# ZADAĆA za 30.03.2020
+prouciti: https://www.w3schools.com/php/php_arrays.asp
+i nastavljamo s sort!
+
 ## ZADACI 5.7 na stranici 54 priručnika !!!
 jsperkovic 26.03.2020 +
 bbracko 26.03.2020 +
