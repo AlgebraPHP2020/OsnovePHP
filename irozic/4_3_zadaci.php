@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,10 +8,10 @@ and open the template in the editor.
         <br>        
         <h4>1. Koji je od navedenih operatora aritmetički operator?</h4>
         <ol type="a">
-  <li>%</li>
-  <li>&&</li>
-  <li>.</li>
-</ol>
+    <li>%</li>
+    <li>&&</li>
+    <li>.</li>
+    </ol>
         <b>Rješenje:</b> Odgovor a, modul (%).
         <br><br>
         <h4>2. Definirajte dvije varijable, $ime i $prezime, u kojoj ćete upisati vaše ime i prezime. Ispišite te dvije varijable koristeći se operatorom za nastavljanje nizova.</h4>
