@@ -52,9 +52,11 @@ and open the template in the editor.
         <p>4. Pomoću petlje <i>for</i> zbrojite brojeve od 20 do 30 te zbroj ispišite na ekran.</p>
         
         <?php
+        $zbroj=0;
         for ($i = 20; $i <= 30; $i++) {
              $zbroj += $i;
         }
+    
         echo $zbroj;
         ?>
     </body>

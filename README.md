@@ -1,9 +1,11 @@
 # ZADAĆA za 26.03.2020
 ## ZADACI 5.7 na stranici 54 priručnika !!!
+jsperkovic 26.03.2020 +
+bbracko 26.03.2020 +
 
 ## ZADACI 4.3 na stranici 39 priručnika !!!
 mbolanca 24.03.2020 +
-jsperkovic 24.03.2020 +
+jsperkovic 24.0 3.2020 +
 
     
 # OsnovePHP
