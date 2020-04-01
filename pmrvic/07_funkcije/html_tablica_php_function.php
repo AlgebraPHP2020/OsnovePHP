@@ -15,7 +15,18 @@ function htmltable($polje):void{
     
     foreach ($polje['Company'] as $key => $value) {
         printf(" <tr>");
-        printf(" <td>%d</td><td>%s</td><td>%s</td><td>%s</td>",$key,$polje['Company'][$key],$polje['Contact'][$key],$polje['Country'][$key]);
+        try {
+                printf(" <td>%d</td><td>%s</td><td>%s</td><td>%s</td>"
+                ,$key
+                ,$polje['Company'][$key]
+                ,$polje['Contact'][$key]
+                ,$polje['Country'][$key]);
+        } catch (Exception $exc) {
+           // echo $exc->getTraceAsString();
+            //printf(" <td></td><td></td><td></td><td></td>");
+        }
+
+
     printf(" </tr>");
         
     }
@@ -43,7 +54,9 @@ $imena=array('Company'=>['Alfreds Futterkiste',
 'Canada',
 'Italy'
 ]);
+echo "<pre>";
 print_r($imena);
+echo "</pre>";
 ?>
 <!DOCTYPE html>
 <html>
