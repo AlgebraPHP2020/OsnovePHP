@@ -42,7 +42,7 @@ $imena=array('Company'=>['Alfreds Futterkiste',
 ],
    'Contact'=>['Maria Anders',
 'Francisco Chang',
-'Roland Mendel',
+//'Roland Mendel',
 'Helen Bennett',
 'Yoshi Tannamuri',
 'Giovanni Rovelli'
