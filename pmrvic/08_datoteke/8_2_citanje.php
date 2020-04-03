@@ -48,3 +48,6 @@ else{
     echo "<br>jos ima texta za citanje";
 }
 echo "<br> Trenutno se nalazim na lokaciji ".ftell ($handle );
+
+// svaki otvoreni handle se MORA ZATVORITI
+fclose($handle);

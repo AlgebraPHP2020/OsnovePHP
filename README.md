@@ -1,3 +1,7 @@
+# ZADAĆA za 07.04.2020
+90 i 91 str iz prirucnika svi zadaci! mozete i malo ukrasiti 
+ili dodati svoje elemente, sad smo vec ozbiljni programeri!
+
 # ZADAĆA za 30.03.2020
 prouciti: https://www.w3schools.com/php/php_arrays.asp
 i nastavljamo s sort!
