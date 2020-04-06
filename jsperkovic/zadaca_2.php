@@ -32,10 +32,15 @@ and open the template in the editor.
         if ($a > $b) {
             $a++;
             echo '$a je veće';
+            echo "<br>";
         } else {
             $b--;
             echo '$b je veće'; 
-        }
+            echo "<br>";
+        }   
+        echo "$a<br>";
+        echo "$b<br>";
+ 
         ?>
         
         <p>3. Pomoću petlje <i>while</i> ispišite brojeve od 1 do 50 na ekran, jedan ispod drugoga.</p>
@@ -50,7 +55,7 @@ and open the template in the editor.
         ?>
         
         <p>4. Pomoću petlje <i>for</i> zbrojite brojeve od 20 do 30 te zbroj ispišite na ekran.</p>
-        
+        $zbroj = 0;
         <?php
         for ($i = 20; $i <= 30; $i++) {
              $zbroj += $i;
