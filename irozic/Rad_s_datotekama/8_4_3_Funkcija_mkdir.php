@@ -1,4 +1,4 @@
 <?php
 
-mkdir('/var/www/test/');
+mkdir ('proba1');
 
