@@ -76,3 +76,24 @@ sve ($prvi,$drugi);
 
 echo '<h4>4.Zadatak</h4>';
 
+function param ()
+{
+    $parametri = func_get_args();
+    
+    foreach ($parametri as $param) 
+    {
+        if (is_int($param))
+        
+        {
+            echo $param." je broj.<br>";
+        }
+    
+        else 
+        
+        {
+            echo $param." je string.<br>";
+        }
+    } 
+}
+
+echo param("Đini",7,0,'Dejv');
