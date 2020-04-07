@@ -30,29 +30,14 @@ sve ($prvi,$drugi);
 
 $polje_brojeva = array(1,2,3,5);
 
-// NA OVAJ NACIN IZBJEGAVAMO KORISTITI GLOBAL
-function potencija(&$val){
-    $val= $val*$val;
-}
 
-$broj=3;
-potencija($broj);
-echo "<br>".$broj;
-
-function sum() {
-    print_r(func_get_args());
+function sum($polje_brojeva) {
     $rez=0;
     foreach (func_get_args() as $key => $value) {
        $rez+=$value; 
     }
     return $rez;
 }
-echo sum(2,3);
-echo '<hr>';
-echo sum(2,3,4);
-echo '<hr>';
-echo sum(4,4,4,8);
-
 
 function raz() {
     $rez=0;
