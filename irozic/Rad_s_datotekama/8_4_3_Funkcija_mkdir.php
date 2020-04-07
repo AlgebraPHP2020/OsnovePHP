@@ -1,0 +1,4 @@
+<?php
+
+mkdir ('proba1');
+
