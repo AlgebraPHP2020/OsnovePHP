@@ -1,5 +1,14 @@
 <?php
 
+if(isset($_POST['dodaj'])){  // netko je pritisnio dugme "dodaj txt"
+   $filename= 'Omeni.txt';
+$handle= fopen($filename, 'w');
+fwrite ($handle, $_POST['nastext']);
+fclose ($handle); 
+}
+
+
+
 echo "<i><ins>Ovo je moja zadaca broj 3 (str.91)</ins></i>";
     echo "<br><br>";
     
@@ -52,11 +61,20 @@ foreach ($datoteka as $line_num => $line)
     echo 'Linija#<b>'.$line_num.'</b>:'.$line.'<br/>';
 }
 
-$handle1=fopen($filename1, 'a');
-fwrite($handle1, 'I jos uvijek pokusavam rijesiti zadacu.');
-fclose($handle1);
+//$handle1=fopen($filename1, 'a');
+//fwrite($handle1, 'I jos uvijek pokusavam rijesiti zadacu.');
+//fclose($handle1);
+$nekitext="";
+foreach ($datoteka as $line_num => $line) 
+{
+    $nekitext.=$line;
+}
 
-//foreach ($datoteka as $line_num => $line) 
-//{
-//    echo 'Linija#<b>'.$line_num.'</b>:'.$line.'<br/>';
-//}
+?>
+<h1>Izmjena texta</h1>
+<form method="post" action="#">
+    <textarea name="nastext" cols="50" rows="15"><?=$nekitext?></textarea><br>
+    <input type="submit" name="dodaj" value="Dodaj izmjenjeni text">
+</form>
+
+

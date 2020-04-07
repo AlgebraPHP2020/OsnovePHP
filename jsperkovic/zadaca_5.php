@@ -47,9 +47,9 @@ and open the template in the editor.
 
 <!--    Bonus pitanje: zašto bilo kakav kod koji uključuje "<br>" ubacuje hrpu suvišnih <br>-ova i nepotrebno povećava visinu elementa? Npr. ovaj:
     <?php
-        $content = file("file.txt");
-        $data = implode("<br>",$content);
-        echo $data;
+       // $content = file("file.txt");
+       // $data = implode("<br>",$content);
+       // echo $data;
         ?> -->
     
         <p>2. Pripremite obrazac u koji korisnik upisuje neki tekst i nakon predavanja podataka tog obrasca zapišite tekst u neku datoteku. Ako datoteka ne postoji, napravite ju.</p>
@@ -75,14 +75,14 @@ and open the template in the editor.
         
 
     <form method="post" action="">
-        Riba: <input type="text" name="txt">
-        <input type="submit" name="button" value="Spremi">
+        Riba: <input type="text" name="txtribe">
+        <input type="submit" name="button2" value="Spremi">
     </form>  
         
         <?php
         
-        if(isset($_POST['txt'])) {
-            $data = $_POST['txt'];
+        if(isset($_POST['button2'])) {
+            $data = $_POST['txtribe']."\n";
             $ribe = fopen('ribe.txt', 'a+');
             fwrite($ribe, $data);
             fclose($ribe);
