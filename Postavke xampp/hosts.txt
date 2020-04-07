@@ -1,0 +1,5 @@
+127.0.0.2 osnove.test
+127.0.0.3 www.osnove.test
+127.0.0.4 www.osnovephp.test
+127.0.0.5 osnovephp.test
+127.0.0.6 php.test
