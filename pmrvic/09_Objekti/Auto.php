@@ -8,7 +8,7 @@
 class Auto {  // blueprint ili opis auta
 
     public $boja;  //svojstvo
-    public $model;
+    public $marka;
     public $snaga;
 
     /**
@@ -17,10 +17,10 @@ class Auto {  // blueprint ili opis auta
      * @param string $model
      * @param string $boja
      */
-    public function __construct(string $model="BMW",string $boja="black", int $snaga=100 )
+    public function __construct(string $marka="BMW",string $boja="black", int $snaga=100 )
     {
         $this->boja = $boja;
-        $this->model = $model;
+        $this->marka = $marka;
         $this->snaga = $snaga;
     }
     
@@ -40,7 +40,7 @@ class Auto {  // blueprint ili opis auta
         return '<ul class="nav nav-pills" role="tablist">'
                 . '<li role="presentation" class="active"><a href="#">'
                 . '<i class="fas fa-car-side" style="color:'.$this->boja.'"></i>&nbsp;&nbsp;'
-                . $this->model
+                . $this->marka
                 . '&nbsp;<span class="badge" style="width: '.$this->snaga.'px;">'
                 . $this->boja
                 . '</span></a></li></ul>';

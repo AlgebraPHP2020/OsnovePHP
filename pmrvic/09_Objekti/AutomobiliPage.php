@@ -1,5 +1,5 @@
 <?php
-include './Auto.class.php';
+include './Auto.php';
 ?>
 <!DOCTYPE html>
 <!--
