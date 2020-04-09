@@ -4,6 +4,9 @@ proraditi porimjere:
 - [ ] https://www.w3schools.com/pHP/php_oop_what_is.asp
 - [ ] https://www.w3schools.com/pHP/php_oop_classes_objects.asp
 - [ ] https://www.w3schools.com/pHP/php_oop_constructor.asp
+bbracko 09.04.2020 +
+irozic 09.04.2020 +
+bmartin 09.04.2020 +
 
 # ZADAĆA za 07.04.2020
 90 i 91 str iz prirucnika svi zadaci! mozete i malo ukrasiti 
