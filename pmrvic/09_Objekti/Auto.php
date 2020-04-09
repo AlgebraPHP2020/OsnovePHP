@@ -7,6 +7,8 @@
  */
 class Auto {  // blueprint ili opis auta
 
+    private $trenutnaBrzina=0;
+    private $maxBrzina=100;   //  km/h?
     public $boja;  //svojstvo
     public $marka;
     public $snaga;
@@ -23,7 +25,12 @@ class Auto {  // blueprint ili opis auta
         $this->marka = $marka;
         $this->snaga = $snaga;
     }
-    
+    public function getBrzina() {
+     return sprintf ("%.2f kmh",$this->trenutnaBrzina);    
+    }
+    public function setMaxBrzina(int $speed) {
+     $this->maxBrzina=$speed;    
+    }
     /**
      * Unesi novu boju u obliku red, blue ili html colors
      * 
@@ -35,6 +42,9 @@ class Auto {  // blueprint ili opis auta
     public function promjeniSnagu(int $novasnaga) {
         $this->snaga = $novasnaga;
     }
+    public function ubrzaj(int $razina=1, int $sekundi=0){  // 1-5 pet je papucica do daske!
+        $this->trenutnaBrzina= $this->maxBrzina*atan($sekundi*$razina*0.2)/(pi()/2); // ovaj atan vraca od 0-1
+    }
 
     public function __toString() {
         return '<ul class="nav nav-pills" role="tablist">'
@@ -43,6 +53,8 @@ class Auto {  // blueprint ili opis auta
                 . $this->marka
                 . '&nbsp;<span class="badge" style="width: '.$this->snaga.'px;">'
                 . $this->boja
+                . '</span><span class="badge">'
+                . $this->trenutnaBrzina
                 . '</span></a></li></ul>';
     }
 
