@@ -11,7 +11,7 @@
 
                 <?php
                 $filename = "tekst.txt";
-                $mode = 'a+';
+                $mode = 'r';
 
                 $handle = fopen($filename, $mode);
                 $contents = fread($handle, filesize($filename));
@@ -33,8 +33,8 @@
 
                 <?php
                 if (isset($_POST["button"])) {
-                    $filename = "tekst.txt";
-                    $handle = fopen($filename, 'a+');
+                    $file = "tekst.txt";
+                    $handle = fopen($file, 'a+');
                     fwrite($handle, $_POST["tekst"]."\n");
                     fclose($handle);
                     }
@@ -50,7 +50,7 @@
                 
                 $voce = "voce.txt";
                 $data = file($voce);
-                
+                $handle = fopen($voce,'r');
                 
                 echo "<ul>";
                 foreach ($data as $key => $value)
@@ -58,6 +58,7 @@
                 echo "<li>".$value."</li>";
                 }
                 echo "</ul>";
+                fclose($handle);
                 
                 //$mode = 'a+';
                 //$handle = fopen($voce, $mode);
