@@ -19,11 +19,15 @@
         <p>2. Definirajte varijablu $a s vrijednošću 3 i varijablu $b s vrijednošću 5. Korištenjem pomoćne varijable $pom zamijenite njihove sadržaje.</p>
 
         <?php
-        $a = 3;
-        $b = 5;
-        $pom = $b . $a;
+        $a=3;
+        $b=5;
+        
+        $pom=$a;
+        $a=$b;
+        $b=$pom;
 
-        echo $pom;
+        echo $a;
+        echo $b;
         ?>
 
         <p>3. Kreirajte varijablu s tekstualnom vrijednošću. Dodijelite joj vrijednost vašeg imena i prezimena. Ispišite vrijednost tih varijabli.</p>
