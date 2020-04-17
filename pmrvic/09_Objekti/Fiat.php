@@ -5,7 +5,7 @@
  *
  * @author Algebra
  */
-class Fiat extends Automobil {
+class Fiat extends AbstractAutomobil {
     public $model="Uno";
     function __construct() {
         parent::__construct("Fiat","white", 147 );

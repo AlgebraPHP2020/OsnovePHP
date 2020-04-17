@@ -37,3 +37,12 @@ echo $j1;
 $f1->promjeniBoju("red");
 echo $j1;
 echo $f1;
+
+
+// dodajem jos jedan djip
+ $j2=new Jeep();
+ $j2->boja="blue";
+ 
+ $j2->shlep($j1);
+ echo $j2;
+ 

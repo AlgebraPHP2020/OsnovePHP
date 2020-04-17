@@ -11,18 +11,21 @@
  *
  * @author Algebra
  */
-class Jeep extends Fiat {
+class Jeep extends Fiat implements JeepInterface{
     private $uslepu=null;
     
     
     function __construct(string $marka="Jeep",string $boja="LightSalmon", int $snaga=420, string $model="Wrangler") {
-        $this->boja = $boja;
-        $this->marka = $marka;
-        $this->snaga = $snaga;
-        $this->model = $model;
-        $this->setMaxBrzina(160);
+        $this->boja = $boja;    //public
+        $this->marka = $marka;    //public
+        $this->snaga = $snaga;    //public
+        $this->model = $model;    //public
+        $this->setMaxBrzina(160);    //public
+        $this->zakljucajse=false;  //protected
+       // $this->$maxBrzina=200  // ne mogu dohvatiti private svojstvo!!!
     }
-    public function shlep(Auto $a) {
+  //  public function shlep(Auto $a) {
+     public function shlep($a) {
         $this->uslepu=$a;
         $this->setMaxBrzina(35);
         $this->ubrzaj();
@@ -36,6 +39,10 @@ class Jeep extends Fiat {
     public function getSlepani() {
         return $this->uslepu;
     }
+        public function printSlepani() {
+        return $this->uslepu;
+    }
+    
     
     public function __toString() {
         if(is_null($this->uslepu)){  // ako nisi u slepu ide isti ispis kao fiat
@@ -55,4 +62,13 @@ class Jeep extends Fiat {
                 . '</span></a></li></ul>';
         }
     }
+
+    public function upaliSva4() {
+        $this->svjetla=[1,1,1,1];  // upali sve!
+    }
+
+    public function dugaSvjetla() {
+        $this->svjetla=[1,1,0,0];  // upali samo prednja!
+    }
+
 }
