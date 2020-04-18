@@ -1,17 +1,34 @@
 <?php
 
 /**
- * Ovo je nasa prva klasa Auto
+ * Abstraktna klasa Automobil se
+ * ne moze instancirati sa "new"
+ * Mora se nasljediti !!!!
  *
  * @author Algebra
  */
-abstract class Automobil {  // blueprint ili opis auta
+abstract class AbstractAutomobil {  // blueprint ili opis auta
 
+    /**
+     * skreni lijevo [1,0,1,0]
+     * gledaj naprijed [1,1,0,0]
+     * skreni desno[0,1,0,1]
+     * sva 4 [1,1,1,1]
+     * 
+     * @var array
+     */
+    protected $svjetla=[
+        "FL"=>"false",  // prednje lijevo....
+        "FR"=>"false",
+        "RL"=>"false",
+        "RR"=>"false",
+        ]; 
     private $trenutnaBrzina=0;
     private $maxBrzina=100;   //  km/h?
     public $boja;  //svojstvo
     public $marka;
     public $snaga;
+    protected $zakljucajse=true;
 
     /**
      * Kreiraj novi auto, ako ne zadas nista model je BMW, boja crna
